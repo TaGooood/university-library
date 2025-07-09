@@ -8,7 +8,7 @@ const {
   },
 } = config;
 
-// 添加上传图片插件xxxxxxx
+// 添加上传图片插件xxxxxxxx
 const imagekit = new ImageKit({ publicKey, privateKey, urlEndpoint });
 
 export async function GET() {
